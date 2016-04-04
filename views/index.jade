@@ -1,0 +1,10 @@
+extends ./layout.jade
+block content
+  h1!= name
+  h2 :D
+
+  form(action="/",method="POST")
+    input(type="submit",value="ENVIAR")
+
+  a(href="/login") Iniciar sesión
+  a(href="/signup") Registrarse
